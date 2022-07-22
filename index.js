@@ -21,7 +21,7 @@ app.post('/api/fileanalyse', (req, res) => {
   if (!req.files || Object.keys(req.files).length === 0)
     return res.status(400).send('No files were uploaded.');
 
-  const { name, mimetype, size } = req.files.myFile;
+  const { name, mimetype, size } = req.files.upfile;
 
   const respondObj = { name, type: mimetype, size };
 
