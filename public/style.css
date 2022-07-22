@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 :root {
-  --main-bg: hsl(50, 100%, 80%);
+  --main-bg: hsl(150, 100%, 90%);
   --white: hsl(0, 0%, 90%);
   --black: hwb(0 10% 90%);
   --primary: hsl(200, 80%, 10%);
   --secondary: hsl(200, 80%, 20%);
-  --container-bg: hsl(50, 100%, 70%);
+  --container-bg: hsl(150, 100%, 70%);
 
   font-size: 100%;
   background: var(--main-bg);
